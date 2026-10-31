@@ -167,8 +167,8 @@ importers:
   .:
     devDependencies:
       '@notyra/plugin-api':
-        specifier: file:vendor/plugin-api
-        version: file:vendor/plugin-api(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
+        version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
         specifier: 26.6.5
         version: 26.6.5
@@ -188,8 +188,8 @@ importers:
   examples/clipboard-links:
     devDependencies:
       '@notyra/plugin-api':
-        specifier: file:../../vendor/plugin-api
-        version: file:vendor/plugin-api(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
+        version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
         specifier: 26.6.5
         version: 26.6.5
@@ -209,8 +209,8 @@ importers:
   examples/markdown-editor:
     devDependencies:
       '@notyra/plugin-api':
-        specifier: file:../../vendor/plugin-api
-        version: file:vendor/plugin-api(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
+        version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
         specifier: 26.6.5
         version: 26.6.5
@@ -230,8 +230,8 @@ importers:
   examples/network:
     devDependencies:
       '@notyra/plugin-api':
-        specifier: file:../../vendor/plugin-api
-        version: file:vendor/plugin-api(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
+        version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
         specifier: 26.6.5
         version: 26.6.5
@@ -251,8 +251,8 @@ importers:
   examples/notes:
     devDependencies:
       '@notyra/plugin-api':
-        specifier: file:../../vendor/plugin-api
-        version: file:vendor/plugin-api(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
+        version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
         specifier: 26.6.5
         version: 26.6.5
@@ -355,8 +355,10 @@ packages:
   '@marijn/find-cluster-break@1.0.4':
     resolution: {integrity: sha512-Wy0V7+SGUjnF9/TkiM1hKVDPj7jKXduPNboMVtHTA8dySMURWqfg/JZ9E2Sq8JgSJmkl7k7Qe9FLeMSrSraWmQ==}
 
-  '@notyra/plugin-api@file:vendor/plugin-api':
-    resolution: {directory: vendor/plugin-api, type: directory}
+  '@notyra/plugin-api@https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba':
+    resolution: {gitHosted: true, integrity: sha512-JB1z8jHYBeua+MYdh8Mv8uuUecEa2/TGkd2hlPClbrA+klo9dQ6JqFmBjhERiqQLhni8oyBHAUkFdbP+WVOLUw==, tarball: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba}
+    version: 3.1.7
+    engines: {node: '>=24'}
     peerDependencies:
       '@codemirror/commands': ^6.11.1
       '@codemirror/language': ^6.13.1
@@ -992,7 +994,7 @@ snapshots:
 
   '@marijn/find-cluster-break@1.0.4': {}
 
-  '@notyra/plugin-api@file:vendor/plugin-api(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@notyra/plugin-api@https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@codemirror/commands': 6.11.1
       '@codemirror/language': 6.13.1

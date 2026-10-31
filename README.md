@@ -21,7 +21,7 @@ In Notyra 3.1.7+, open Settings → Plugins, acknowledge the third-party notice,
 
 Notyra の **設定 → プラグイン** で注意事項を確認し、開発者モードを有効にしてこのフォルダを選択します。同意後、メインウィンドウのサイドパネルを開いて文字数を表示してください。変更後は `pnpm build` と「再読み込み」を実行します。
 
-The generated `vendor/plugin-api` package comes from the app's canonical API at version 3.1.7. It is a local file dependency, so development does not depend on an unpublished npm package. To use npm after publication, replace the dependency with the exact matching `@notyra/plugin-api` version and regenerate the lockfile. Runtime imports always come from Notyra; do not bundle a second React or CodeMirror instance.
+The [@notyra/plugin-api package](https://github.com/yuma-shin/notyra-plugin-api) is maintained in its own repository and published under npm's @notyra organization. This template and all four examples consume it without vendored copies. Before the first npm publication, dependencies pin an immutable GitHub commit tarball. After publication, switch every manifest to exact npm version 3.1.7 and regenerate the lockfile. Runtime imports always come from Notyra; do not bundle a second React or CodeMirror instance.
 
 ## Examples
 
@@ -48,6 +48,16 @@ git push origin v0.1.0
 
 ## API package maintenance
 
-`vendor/plugin-api` is also the npm package source for `@notyra/plugin-api`. Its package version must equal Notyra's Plugin API version. To inspect the publish payload, run `npm pack --dry-run` in that directory; then pack or publish that directory only. Update its source and declarations from the application's canonical types when the API version changes. This repository does not automatically publish to npm or assume existing publishing credentials.
+API package source, synchronization and npm publication are managed exclusively in [notyra-plugin-api](https://github.com/yuma-shin/notyra-plugin-api). The canonical contracts remain in the app; its export command updates the API repository's generated sources. This template only consumes the package. To switch all consumers after npm publication:
+
+```sh
+pnpm add -Dw -E @notyra/plugin-api@3.1.7
+pnpm --filter "./examples/*" add -D -E @notyra/plugin-api@3.1.7
+pnpm typecheck
+pnpm build
+pnpm test
+```
+
+Run each example's checks too, and commit the updated lockfile. Never publish the template directory as @notyra/plugin-api.
 
 Full Japanese and English guide: https://notyra.snackpan.app/docs/plugins/
