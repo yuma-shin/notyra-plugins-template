@@ -30,7 +30,7 @@ The generated `vendor/plugin-api` package comes from the app's canonical API at 
 - `examples/notes` declares note permissions and registers a command that creates a note only when the user runs it.
 - `examples/network` declares an HTTPS destination and registers a fetch command. It makes no request during activation.
 - `examples/clipboard-links` shows user-triggered clipboard and external-link actions.
-- A complete theme plugin is maintained in [Notyra-Theme](https://github.com/yuma-shin/Notyra-Theme).
+- A complete theme plugin is maintained in [notyra-plugins](https://github.com/yuma-shin/notyra-plugins/tree/main/plugins/notyra-theme-blue).
 
 Each example is a separate plugin project: install dependencies, build it, then select that example folder in Developer Mode. All bundled code uses the host's virtual API and shared module paths.
 
