@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync } from 'node:fs'
-import { parseManifest } from '../vendor/plugin-api/manifest.js'
+import { parseManifest } from '@notyra/plugin-api/manifest'
 const [id, displayName = id] = process.argv.slice(2)
 if (!id) throw new Error('Usage: pnpm rename my-plugin "My Plugin"')
 const url = new URL('../package.json', import.meta.url)

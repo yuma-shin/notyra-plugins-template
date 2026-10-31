@@ -1,16 +1,11 @@
 import { readFileSync } from 'node:fs'
-import { fileURLToPath, pathToFileURL } from 'node:url'
+import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
 import { build } from 'vite'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const manifest = JSON.parse(readFileSync(resolve(root, 'package.json'), 'utf8'))
-const dependency = manifest.devDependencies['@notyra/plugin-api']
-const { parseManifest } = await import(
-  dependency.startsWith('file:')
-    ? pathToFileURL(resolve(root, dependency.slice(5), 'manifest.js')).href
-    : '@notyra/plugin-api/manifest'
-)
+const { parseManifest } = await import('@notyra/plugin-api/manifest')
 const parsed = parseManifest(JSON.stringify(manifest))
 if (!parsed.ok) throw new Error(JSON.stringify(parsed.errors, null, 2))
 const shared = [
