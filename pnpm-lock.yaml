@@ -170,8 +170,8 @@ importers:
         specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
         version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
-        specifier: 26.6.5
-        version: 26.6.5
+        specifier: 26.6.6
+        version: 26.6.6
       '@types/semver':
         specifier: 7.8.0
         version: 7.8.0
@@ -183,7 +183,7 @@ importers:
         version: 7.0.2
       vite:
         specifier: 8.3.5
-        version: 8.3.5(@types/node@26.6.5)
+        version: 8.3.5(@types/node@26.6.6)
 
   examples/clipboard-links:
     devDependencies:
@@ -191,8 +191,8 @@ importers:
         specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
         version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
-        specifier: 26.6.5
-        version: 26.6.5
+        specifier: 26.6.6
+        version: 26.6.6
       '@types/semver':
         specifier: 7.8.0
         version: 7.8.0
@@ -204,7 +204,7 @@ importers:
         version: 7.0.2
       vite:
         specifier: 8.3.5
-        version: 8.3.5(@types/node@26.6.5)
+        version: 8.3.5(@types/node@26.6.6)
 
   examples/markdown-editor:
     devDependencies:
@@ -212,8 +212,8 @@ importers:
         specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
         version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
-        specifier: 26.6.5
-        version: 26.6.5
+        specifier: 26.6.6
+        version: 26.6.6
       '@types/semver':
         specifier: 7.8.0
         version: 7.8.0
@@ -225,7 +225,7 @@ importers:
         version: 7.0.2
       vite:
         specifier: 8.3.5
-        version: 8.3.5(@types/node@26.6.5)
+        version: 8.3.5(@types/node@26.6.6)
 
   examples/network:
     devDependencies:
@@ -233,8 +233,8 @@ importers:
         specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
         version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
-        specifier: 26.6.5
-        version: 26.6.5
+        specifier: 26.6.6
+        version: 26.6.6
       '@types/semver':
         specifier: 7.8.0
         version: 7.8.0
@@ -246,7 +246,7 @@ importers:
         version: 7.0.2
       vite:
         specifier: 8.3.5
-        version: 8.3.5(@types/node@26.6.5)
+        version: 8.3.5(@types/node@26.6.6)
 
   examples/notes:
     devDependencies:
@@ -254,8 +254,8 @@ importers:
         specifier: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba
         version: https://codeload.github.com/yuma-shin/notyra-plugin-api/tar.gz/3f15cc1f4d516081b1b3c6815239d5d8f59e22ba(@codemirror/commands@6.11.1)(@codemirror/language@6.13.1)(@codemirror/state@6.7.6)(@codemirror/view@6.43.15)(@lezer/highlight@1.2.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@types/node':
-        specifier: 26.6.5
-        version: 26.6.5
+        specifier: 26.6.6
+        version: 26.6.6
       '@types/semver':
         specifier: 7.8.0
         version: 7.8.0
@@ -267,7 +267,7 @@ importers:
         version: 7.0.2
       vite:
         specifier: 8.3.5
-        version: 8.3.5(@types/node@26.6.5)
+        version: 8.3.5(@types/node@26.6.6)
 
 packages:
 
@@ -472,8 +472,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@types/node@26.6.5':
-    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
+  '@types/node@26.6.6':
+    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
 
   '@types/react-dom@19.3.0':
     resolution: {integrity: sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==}
@@ -1056,7 +1056,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@types/node@26.6.5':
+  '@types/node@26.6.6':
     dependencies:
       undici-types: 8.9.0
 
@@ -1355,7 +1355,7 @@ snapshots:
 
   undici@8.12.3: {}
 
-  vite@8.3.5(@types/node@26.6.5):
+  vite@8.3.5(@types/node@26.6.6):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -1363,7 +1363,7 @@ snapshots:
       rolldown: 1.2.16
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       fsevents: 2.3.3
 
   w3c-keyname@2.2.8: {}
